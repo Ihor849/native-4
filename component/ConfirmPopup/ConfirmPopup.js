@@ -4,7 +4,10 @@ import { View, Text, TouchableOpacity, Modal, StyleSheet } from 'react-native';
 
 const ConfirmPopup = ({ visible, message, onCancel, onConfirm , commentId }) => {
 
-
+  
+//   const handleConfirm = () => {
+//     onConfirm(commentId); // Call the onConfirm function with the commentId
+//   };
 
   return (
     <Modal

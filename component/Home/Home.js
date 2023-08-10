@@ -19,6 +19,8 @@ export default function Home() {
            <Tabs.Screen name="Profile" options={{headerShown: false, tabBarStyle: { display: "none" },}} component={ProfileScreen} /> 
            <Tabs.Screen name="Comments" options={{headerShown: false, tabBarStyle: { display: "none" },}} component={CommentsScreen} />
            <Tabs.Screen name="Map" options={{headerShown: false, tabBarStyle: { display: "none" },}} component={MapScreen} />
+         
+          
         </Tabs.Navigator>
     )
 }
